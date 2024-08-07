@@ -20,10 +20,34 @@ export default async function Home() {
           rights: 'use',
         },
       ],
+      // dashboards: [
+      //   {
+      //     id: '<dashboard_id>',
+      //     rights: 'use',
+      //   },
+      // ],
+      // collections: [
+      //   {
+      //     id: '<collections_id>',
+      //     rights: 'use',
+      //   },
+      // ],
     },
   });
 
-  const { id, token } = response;
+  const {
+    id,
+    token,
+    access: { datasets, dashboards, collections },
+  } = response;
 
-  return <LuzmoClientComponent authKey={id} authToken={token} />;
+  return (
+    <LuzmoClientComponent
+      authKey={id}
+      authToken={token}
+      datasets={datasets}
+      dashboards={dashboards}
+      collections={collections}
+    />
+  );
 }
