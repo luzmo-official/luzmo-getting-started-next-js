@@ -23,7 +23,7 @@ export default async function Home() {
     },
   });
 
-  const { id, token } = response;
+  const { id, token, access } = response;
 
-  return <LuzmoClientComponent authKey={id} authToken={token} />;
+  return <LuzmoClientComponent authKey={id} authToken={token} datasetId={access.datasets[0].id} />;
 }

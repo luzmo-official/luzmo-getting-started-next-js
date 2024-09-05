@@ -1,10 +1,10 @@
-# ...
+# How To Build Custom Data Visualizations Using Luzmo Flex
 
 This repository contains all the code referenced in the following blog post:
 
-- [Getting started with Luzmo Data Visualisation and Next.js](https://www.luzmo.com/blog/data-visualization-nextjs-luzmo)
+- [How To Build Custom Data Visualizations Using Luzmo Flex](https://www.luzmo.com/)
 
-To use this code you'll need two environment variables provided by [Luzmo](https://www.luzmo.com/). The steps for how to create them are covered in the blog post.
+To use this code you'll need two environment variables provided by [Luzmo](https://www.luzmo.com/). The steps for how to create them are covered in the blog post. [Getting started with Luzmo Data Visualization and Next.js](https://www.luzmo.com/blog/data-visualization-nextjs-luzmo)
 
 ## Environment variables
 

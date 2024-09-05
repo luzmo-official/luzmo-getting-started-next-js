@@ -1,5 +1,5 @@
 {
-  "name": "luzmo-getting-started-next-js",
+  "name": "luzmo-flex-tutorial",
   "version": "0.1.0",
   "private": true,
   "license": "MIT",
@@ -11,6 +11,7 @@
   },
   "dependencies": {
     "@luzmo/nodejs-sdk": "^1.3.0",
+    "@luzmo/react-embed": "^5.0.18",
     "next": "14.2.5",
     "react": "^18",
     "react-dom": "^18"
